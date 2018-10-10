@@ -1,6 +1,6 @@
 {
   "name": "react-lottery",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react lottery component",
   "main": "dist/index.js",
   "scripts": {

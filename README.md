@@ -1,5 +1,8 @@
 # React Lottery Component
 
+### Demo
+This is [an example](https://missrhyme.github.io/react-lottery/index.html).
+
 ### Example
 ```javascript
 import AppleLottery from 'react-lottery';
