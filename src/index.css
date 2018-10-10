@@ -1,0 +1,51 @@
+.react-lottery-apple-item, .react-lottery-apple-item p {
+  padding: 0;
+  margin: 0; }
+
+.react-lottery-apple {
+  position: relative;
+  padding: 0;
+  margin: 0 auto; }
+  .react-lottery-apple-item {
+    box-sizing: border-box;
+    width: 33%;
+    height: 33%;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 10px 11px rgba(34, 24, 21, 0.2); }
+    .react-lottery-apple-item-image {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center 0;
+      height: 100%;
+    }
+    .react-lottery-apple-item p {
+      background: #000;
+      line-height: 28px;
+      border-radius: 0 0 5px 5px;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 0; }
+  .react-lottery-apple-item-active {
+    transform: scale(1.1); 
+    -webkit-transform: scale(1.1); }
+  .react-lottery-apple-slotbtn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    cursor: pointer; }
+    .react-lottery-apple-slotbtn img {
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%); }
